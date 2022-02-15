@@ -7,5 +7,5 @@ metadata:
   labels:
     app.kubernetes.io/name: bookimport
 spec:
-  tower_auth_secret: toweraccess
+  tower_auth_secret: tmmansible
   job_template_name: snow-create-change-record
