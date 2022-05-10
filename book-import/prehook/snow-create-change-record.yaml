@@ -3,9 +3,9 @@ apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
   name: snow-create-change-record
-  namespace: book-import2
+  namespace: book-import
   labels:
     app.kubernetes.io/name: bookimport
 spec:
-  tower_auth_secret: tmmansible
+  tower_auth_secret: toweraccess
   job_template_name: snow-create-change-record
