@@ -6,7 +6,7 @@ metadata:
   namespace: aap
 spec:
   job_template_inventory: ACM Cluster Inventory
-  job_template_name: VolSync Template Test 
+  job_template_name: RocketChat Volsync
   job_template_playbook: volsync/playbook.yml
   job_template_project: VolSync Demo
   tower_auth_secret: aap2-cred
